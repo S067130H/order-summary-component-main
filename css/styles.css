@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-attachment: fixed;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font: 500 1rem "Red Hat Display";
+    text-align: center;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    line-height: 1.625rem;
+}
+
+button {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 0.69rem;
+    box-shadow: 0 1.25rem 1.25rem hsla(245, 75%, 52%, 0.19);
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    font-weight: 700;
+    height: 3.125rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+button:hover {
+    background-color: hsl(245, 83%, 68%);
+    cursor: pointer;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1.25rem;
+    box-shadow: 0 2.5rem 2.5rem 1.25rem hsla(228, 87%, 40%, 0.15);
+    margin: 4.44rem 1.5rem;
+    overflow: hidden;
+    max-width: 28.125rem;
+}
+
+.hero {
+    height: auto;
+    width: 100%;
+}
+
+.content {
+    padding: 45px 48px 48px;
+}
+
+.content a {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+.plan {
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 0.69rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.25rem 0 2rem;
+    padding: 1.5rem;
+}
+
+.plan a {
+    color: hsl(245, 75%, 52%);
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.plan a:active {
+    color: hsl(245, 83%, 68%);
+}
+
+.icon-group {
+    display: flex;
+}
+
+.icon {
+    margin-right: 1.25rem;
+}
+
+.bold {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+    html {
+        background-image: url("../images/pattern-background-mobile.svg");
+    }
+
+    .content {
+        padding: 2.19rem;
+    }
+
+    .plan {
+        padding: 1rem;
+    }
+
+    .icon-group {
+        font-size: 0.875rem;
+    }
+}
