@@ -60,7 +60,7 @@ footer {
 .container {
     background-color: hsl(0, 0%, 100%);
     border-radius: 1.25rem;
-    box-shadow: 0 2.5rem 2.5rem 1.25rem hsla(228, 87%, 40%, 0.15);
+    box-shadow: 0 2.5rem 2.5rem -1.25rem hsla(228, 87%, 40%, 0.15);
     margin: 4.44rem 1.5rem;
     overflow: hidden;
     max-width: 28.125rem;
